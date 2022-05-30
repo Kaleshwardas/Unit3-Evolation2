@@ -1,0 +1,42 @@
+#bucket{
+    display:grid;
+    grid-template-columns: repeat(4,300px);
+    grid-template-rows: repeat(4,420px);
+    gap:20px;
+    justify-content: center;
+    justify-items: center;
+}
+#bucket>div{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    text-align: center;
+    margin-top:20px;
+    border-radius: 8px 8px 8px 8px;
+
+
+}
+div>img{
+    height:70%;
+    width:300px;
+    border-radius: 8px 8px 0px 0px;
+}
+h3{
+    margin-top:-20px;
+}
+p{
+    margin-top:-10px;
+}
+h2{
+    margin-top:-5px;
+}
+button{
+    margin-top:-10px;
+    color:black;
+    font-weight:bold;
+    padding:5px 5px 5px 5px;
+
+}
+#bucket>button{
+    margin:100px;
+    height:20px;
+    width:100px;
+}
